@@ -1,0 +1,1 @@
+AI Droplet Manager — управление GPU-дроплетом через Web-интерфейс.

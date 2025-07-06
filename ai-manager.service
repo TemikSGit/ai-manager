@@ -1,0 +1,14 @@
+[Unit]
+Description=AI GPU Droplet Manager Web App
+After=network.target
+
+[Service]
+EnvironmentFile=/etc/default/ai-manager
+WorkingDirectory=/opt/ai-manager
+ExecStart=/usr/bin/python3 /opt/ai-manager/ai-droplet-manager.py
+Restart=always
+User=root
+Group=root
+
+[Install]
+WantedBy=multi-user.target

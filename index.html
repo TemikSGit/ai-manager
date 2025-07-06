@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>GPU Droplet Manager</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; margin-top: 100px; }
+        .status-active { color: green; font-weight: bold; }
+        .status-inactive { color: red; font-weight: bold; }
+        button { font-size: 1.5em; padding: 10px 20px; margin-top: 20px; }
+        .links { margin-top: 30px; }
+        .links a { display: block; margin: 5px; font-size: 1.2em; }
+    </style>
+</head>
+<body>
+    <h1>🧠 GPU Droplet Status: <span id="status" class="status-active">active</span></h1>
+    <button id="action">⛔ Остановить</button>
+    <div class="links" id="links" style="display: block;">
+        <a href="https://ai.key-net.ru" target="_blank" rel="noopener noreferrer">🧠 FramePack</a>
+        <a href="https://ai.key-net.ru/stats" target="_blank" rel="noopener noreferrer">📊 Утилизация GPU</a>
+    </div>
+</body>
+</html>
